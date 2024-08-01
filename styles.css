@@ -10,13 +10,29 @@
   font-weight: bold;
 
 }
-
+.container {
+  text-align: center;
+}
 .recipe-list {
+  display: inline-block;
+  text-align: left;
   font-size: 20px;
+  margin-top: 20px;
+
 }
 
 .recipe-list li:hover {
   color: red;
   cursor: pointer;
   transition: 0.5s;
+  font-size: 20px;
+}
+
+.pas {
+  margin-bottom: 10px;
+
+}
+
+.las {
+  margin-bottom: 10px;
 }
